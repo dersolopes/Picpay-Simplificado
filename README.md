@@ -35,7 +35,7 @@ Diferente de implementações convencionais, este repositório foi projetado com
 O desenvolvimento deste sistema foi estruturado simulando o fluxo de uma equipe de engenharia ágil (*Tribo/Squad*), quebrado nas seguintes Histórias de Usuário:
 
 ### 🔹 Sprint 1: Core da Transação & Infra base
-*   **US01 - Configuração de Ecossistema e Massa de Dados:** Inicialização do Spring Boot 3 + Banco de Dados e uma classe de carga inicial de sementes (*seed data*) para popular o ambiente com usuários de teste (comuns e lojistas).
+*   **US01 - Configuração de Ecossistema e Massa de Dados:** Inicialização do Spring Boot 4 + Banco de Dados e uma classe de carga inicial de sementes (*seed data*) para popular o ambiente com usuários de teste (comuns e lojistas).
 *   **US02 - Motor de Regras da Transferência:** Implementação das validações de saldo, restrição de lojista pagador e o controle transacional isolado na camada de serviços.
 *   **US03 - Integração com APIs Externas (Clientes HTTP):** Construção da resiliência para consumo dos mocks externos autorizadores (`https://util.devi.tools/api/v2/authorize`) e de envio de notificações (`https://util.devi.tools/api/v1/notify`).
 *   **US04 - Exposição do Endpoint REST:** Disponibilização da rota principal do contrato do sistema:
@@ -59,7 +59,7 @@ O desenvolvimento deste sistema foi estruturado simulando o fluxo de uma equipe 
 
 ## 🛠️ Tecnologias Utilizadas
 
-*   **Java 17+** & **Spring Boot 3.x**
+*   **Java 23+** & **Spring Boot 4.1.1** & **Maven 4.0.0**
 *   **Spring Data JPA** & Banco de Dados Relacional
 *   **Spring Boot Actuator** & **Micrometer Prometheus**
 *   **Docker** & **Docker Compose**
